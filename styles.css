@@ -29,7 +29,7 @@ header nav ul li a {
 }
 
 .hero {
-  background-image: url("hero-image.jpg");
+  background-image: url("https://st4.depositphotos.com/1030375/27152/i/450/depositphotos_271521394-stock-photo-portrait-of-young-hero-woman.jpg");
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -38,7 +38,9 @@ header nav ul li a {
   justify-content: center;
   color: #fff;
 }
-
+.work-images img{
+	width:100px;
+}
 .our-work,
 .features-services,
 .what-others-say,
@@ -80,4 +82,7 @@ footer .social-media-icons {
 
 footer .social-media-icons a {
   margin: 0 10px;
+}
+.social-media-icons a img{
+	width:20px;
 }
